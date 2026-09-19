@@ -1,0 +1,271 @@
+.navbar-main{
+    background-color: #EBEFF5;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+  }
+
+
+  .navbar-top{
+    width: 100%;
+    height: 100%; 
+    position: relative;
+    padding: 30px 80px 20px 80px ;    
+    /* display: inline-flex; */
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+
+  }
+  .navbarrem{
+    /* border: 1px solid black; */
+    width: 800px;
+    padding-right: 20px;
+  }
+  .nav_searchBox {
+    width: 90%;
+}
+  .notif_box_icon{
+    padding-top: 5px;
+    padding-right: 35px;
+    position: relative;
+  }
+
+  .notif_box_label{
+    padding:10px 20px;
+    top:50px;
+    right:20px;
+    position:absolute;
+    border: 1px solid rgba(0,0,0,.2);
+    width:500px;
+    background-color:#fff;
+    opacity: 90%;
+    /* height:80px; */
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 1px rgba(0,0,0,.2);
+  }
+  .notif_box_label_company{
+    padding:10px 20px;
+    top:80px;
+    right:220px;
+    position:absolute;
+    border: 1px solid rgba(0,0,0,.2);
+    width:500px;
+    background-color:#fff;
+    opacity: 90%;
+    /* height:80px; */
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 1px rgba(0,0,0,.2);
+  }
+
+  .notif_box_label_each{
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    margin-bottom: 10px !important;
+  }
+
+  .notif_box_label_each:last-child{
+    border-bottom:none;
+    margin-bottom: 10px !important;
+  }
+  
+  .notif_box_label_each:hover{
+    transform: scale(1.06);
+    transition: transform 100ms ease-in;
+  }
+  .notif_box_label_each{
+   cursor: pointer;
+   padding: 3px;
+  
+  }
+ 
+
+.navbar-image{
+    width: 150px;
+}
+
+
+.options{
+  padding-left: 40px;
+}
+
+.navbar-texts{
+  padding:0px 40px 0px 5px;
+  color: #495c83;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.chosen_navbar-texts{
+  padding:0px 40px 0px 5px;
+  color: #495c83;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.notif-icon{
+  margin-right: 37px !important;
+  margin-left: 870px !important;
+
+}
+.company-logo{
+  width: 40px;
+  border-radius: 50%;
+ 
+  justify-content: flex-end;
+  
+}
+
+.unlist{
+  display: flex;
+  list-style: none;
+  padding-top: 10px;
+}
+
+.profile_box_label{
+  padding:10px 20px;
+  top:50px;
+  right:20px;
+  position:absolute;
+  border: 1px solid rgba(0,0,0,.2);
+  width:150px;
+  background-color: #fff;
+  /* height:80px; */
+  border-radius: 5px;
+}
+.profile_box_label_company{
+  padding:10px 20px;
+  top:85px;
+  right:50px;
+  position:absolute;
+  border: 1px solid rgba(0,0,0,.2);
+  width:150px;
+  background-color: #fff;
+  /* height:80px; */
+  border-radius: 5px;
+
+}
+.profile_box_label_each{
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  cursor: pointer;
+  padding: 3px;
+}
+
+.profile_box_label_end{
+  cursor: pointer;
+  padding: 3px;
+
+}
+
+.profile_box_label_each:hover{
+  transform: scale(1.06);
+  transition: transform 100ms ease-in;
+}
+
+.profile_box_label_end:hover{
+  transform: scale(1.06);
+  transition: transform 100ms ease-in;
+}
+
+
+.profile_box_label_texts{
+  font-weight: 500;
+  color:#495C83;
+  font-size: 15px;
+}
+
+
+
+.border-left{
+  width: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+ 
+  /* justify-content: flex-end; */
+
+}
+
+
+
+/* FOR - */
+
+.navbarunordered{
+  list-style-type: none;
+  padding:0px;
+
+}
+
+.navbarlistitems{
+  display: inline;
+  float: left;
+}
+
+.usernavbarimage{
+  width:200px
+}
+
+.usernavbarbutton{
+  width:300px;
+  
+}
+
+.user-iconsnavbar{
+  /* padding-right:50px; */
+  /* color: black; */
+  /* border:1px solid black; */
+  z-index: 1000;
+  cursor: pointer;
+  /* color:#495C83; */
+  /* opacity: 50%; */
+}
+.company_iconsnavbar{
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.userdp{
+  padding-left:40px;
+  padding-right: 30px;
+  position:relative;
+  cursor: pointer;
+}
+
+.status-button{
+  min-width: 200px;
+  outline: none;
+  background: #495c83;
+  border: 2px solid #495c83;
+  border-radius: 10px;
+  padding: 8px 15px 8px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+
+}
+
+/* .status-button:hover{
+  background-color:white ;
+  color: #495c83;
+} */
+optgroup{
+  font-size: 22px;
+}
+
+.status-button:checked,
+.status-button:focus {
+  background-color: #495c83;
+  /* background: linear-gradient(#495c83, #495c83); */
+  -webkit-text-fill-color: #ffffff;
+  color: white;
+}
+
+.hori-line{
+  margin-top: 7px;
+  border-color:  #495c83;
+  border-style: solid;
+  /* border: 0px 0px 0px 0px; */
+}
+
+.navbar_wholeicon{
+  /* border: 1px solid black; */
+  margin-right: 30px !important;
+  font: 20px;
+}

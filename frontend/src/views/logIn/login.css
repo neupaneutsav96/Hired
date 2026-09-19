@@ -1,0 +1,79 @@
+/* .logIn_c {
+} */
+
+.left_column {
+  margin: 5em 0 0 15em !important;
+  padding: 3em 0 0 5em;
+}
+
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+  margin-top: 2em !important;
+  border-radius: 10px;
+}
+
+.login {
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+.googleLogin {
+  width: 21em;
+  /* height: 50px; */
+  outline: none;
+  background: none;
+  border: 1px solid #495c83;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: 550;
+  color: #7a86b6;
+  margin-top: 2em;
+  margin-bottom: 3em !important;
+  padding-top: 15px;
+}
+.email {
+  font-size: 1.25em;
+  font-weight: 450;
+  padding: 5px 0px 10px 0px;
+}
+/* .box {
+  width: 80px;
+  height: 35px;
+} */
+
+.logIn {
+  width: 18em;
+  height: 45px;
+  outline: none;
+  background: none;
+  border: 2px solid #495c83;
+  border-radius: 5px;
+  padding: 0 20px 0 20px;
+  font-size: 1.2em;
+  color: #7a86b6;
+}
+.logIn:hover {
+  background-color: #495c83;
+  color: #ffff;
+}
+.register {
+  font-size: 0.9em;
+  font-weight: 550;
+  color: #495c83;
+  padding: 2em 2em;
+}
+.Right_column {
+  margin: 5em 15em 0 0 !important;
+}
+.loginImage {
+  height: 50em;
+}
+.emailbox {
+  padding: 10px 0;
+}
+#outlined-basic {
+  width: 20em;
+  border: 2px #7a86b6;
+  padding: 0.8em;
+}
